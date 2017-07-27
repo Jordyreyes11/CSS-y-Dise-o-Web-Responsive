@@ -1,0 +1,20 @@
+header {
+  background-color: #5b7989;
+  color: white;
+  text-align: left;
+  text-shadow: 2px 2px 2px #02010a;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+header h1 {
+  
+}
+
+body {
+  background-color: #02010a;
+}
+
+#menu-principal {
+
+}
