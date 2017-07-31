@@ -7,14 +7,60 @@ header {
   padding: 20px;
 }
 
-header h1 {
-  
+header a{
+  color: white;
 }
 
 body {
   background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
 }
 
-#menu-principal {
+#contenido {
+  width: 100%;
+  margin: auto;
+}
 
+#contenido header h1 {
+  width: 100%;
+  text-align: center;
+}
+#menu-principal {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width:900px) {
+  #contenido {
+    max-width: 900px;
+    margin: auto;
+  }
+  #contenido header h1 {
+    width: 50%;
+    display: inline;
+  }
+  #menu-principal {
+    width: 50%;
+    display: inline;
+    float: right;
+    text-align: right;
+  }
+  #imagen_central {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #82c3a6;
+  }
+  #contenedor_imagenes {
+    display: flex;
+    display-direction: rows;
+    background-color: #d5c75f;
+  }
+  #contenedor_imagenes img {
+    width: 45%;
+    height: 45%;
+    padding: 2.5%;
+  }
 }
