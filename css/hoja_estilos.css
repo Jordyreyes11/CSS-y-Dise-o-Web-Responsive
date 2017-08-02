@@ -45,12 +45,15 @@ body {
     float: right;
     text-align: right;
   }
-  #imagen_central {
+  #imagen_central img {
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+
+  #imagen_central {
     background-color: #82c3a6;
   }
   #contenedor_imagenes {
@@ -63,4 +66,24 @@ body {
     height: 45%;
     padding: 2.5%;
   }
+  footer {
+    background-color: #C6d5c5;
+    padding: 20px;
+    display: flex;
+    display-direction: rows;
+  }
+
+  footer p {
+    margin: 5px;
+  }
+
+  footer p img {
+    width: 18px;
+    margin-right: 5px;
+  }
+
+  footer div {
+    width: 25%;
+  }
+
 }
