@@ -11,6 +11,10 @@ header a{
   color: white;
 }
 
+#inicio {
+  text-decoration:none;
+}
+
 body {
   background-color: #02010a;
   font-family: 'Dancing Script', cursive;
@@ -28,6 +32,58 @@ body {
 #menu-principal {
   width: 100%;
   text-align: center;
+}
+
+#imagen_central img {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#imagen_central {
+  background-color: #82c3a6;
+}
+
+#contenedor_imagenes img {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#contenedor_imagenes {
+  background-color: #d5c75f;
+  color: black;
+}
+
+.imagenes_secundarias {
+  text-align: center;
+  padding: 20px;
+}
+
+.imagenes_secundarias a p{
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+footer {
+  background-color: #C6d5c5;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer p img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+footer div {
+  width: 80%;
+  margin-left: 5%;
 }
 
 @media (min-width:900px) {
@@ -61,14 +117,12 @@ body {
     display-direction: rows;
     background-color: #d5c75f;
   }
-  #contenedor_imagenes img {
-    width: 45%;
-    height: 45%;
-    padding: 2.5%;
+  .imagenes_secundarias {
+    width: 80%;
+    height: 80%;
   }
+
   footer {
-    background-color: #C6d5c5;
-    padding: 20px;
     display: flex;
     display-direction: rows;
   }
