@@ -11,10 +11,6 @@ header a{
   color: white;
 }
 
-#inicio {
-  text-decoration:none;
-}
-
 body {
   background-color: #02010a;
   font-family: 'Dancing Script', cursive;
@@ -34,24 +30,19 @@ body {
   text-align: center;
 }
 
+#inicio {
+  text-decoration:none;
+}
+
 #imagen_central img {
   width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  box-shadow: 2px 2px 2px black;
 }
 
 #imagen_central {
   background-color: #82c3a6;
-}
-
-#contenedor_imagenes img {
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  text-align: center;
+  padding: 20px;
 }
 
 #contenedor_imagenes {
@@ -59,9 +50,37 @@ body {
   color: black;
 }
 
+#contenedor_imagenes img {
+  width: 90%;
+}
+
 .imagenes_secundarias {
   text-align: center;
   padding: 20px;
+}
+
+#paisaje {
+transition: transform 1s;
+border: black 1px solid;
+padding: 0px;
+box-shadow: 2px 2px 2px black;
+}
+
+#paisaje:hover {
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: black 2px solid;
+}
+#retrato {
+  transition: transform 1s;
+  border: black 1px solid;
+  padding: 0px;
+  box-shadow: 2px 2px 2px black;
+}
+#retrato:hover {
+  transform: translate(20px, -5px);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: black 2px solid;
 }
 
 .imagenes_secundarias a p{
@@ -103,10 +122,6 @@ footer div {
   }
   #imagen_central img {
     width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
   }
 
   #imagen_central {
